@@ -15,68 +15,70 @@
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
+    <div class="test">
+      <div id="carouselIndicators" class="carousel slide" data-ride="carousel">
 
-    <div id="carouselIndicators" class="carousel slide" data-ride="carousel">
+        <div class="fixed-top-menu">
+          <img src="images/logitech-logo.png" alt="logo">
+          <a href="#">
+            <i class="fa fa-search" aria-hidden="true"></i>
+          </a>
+          <a href="#">
+            <i class="fa fa-user-o" aria-hidden="true"></i>
+          </a>
+          <a href="#">
+            <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+          </a>
+          <ul>
+            <li>MICE + KEYBOARDS</li>
+            <li>MOBILE</li>
+            <li>SMART HOME</li>
+            <li>GAMING</li>
+            <li>SPEAKERS</li>
+            <li>VIDEO</li>
+            <li>SUPPORT</li>
+          </ul>
+        </div>
 
-      <div class="fixed-top-menu">
-        <img src="images/logitech-logo.png" alt="logo">
-        <a href="#">
-          <i class="fa fa-search" aria-hidden="true"></i>
+        <ol class="carousel-indicators">
+          <li data-target="#carouselIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner" role="listbox">
+          <div
+          style="background-image: url('images/car1.jpg')"
+          class="carousel-item active">
+            <div class="carousel-caption d-none d-md-bloc">
+              <h3>...</h3>
+              <p>...</p>
+            </div>        </div>
+          <div
+          style="background-image: url('images/car2.jpg')"
+          class="carousel-item">
+            <div class="carousel-caption d-none d-md-block">
+              <h3>...</h3>
+              <p>...</p>
+            </div>        </div>
+          <div
+          style="background-image: url('images/car3.jpg')"
+          class="carousel-item">
+            <div class="carousel-caption d-none d-md-block">
+              <h3>...</h3>
+              <p>...</p>
+            </div>        </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
         </a>
-        <a href="#">
-          <i class="fa fa-user-o" aria-hidden="true"></i>
+        <a class="carousel-control-next" href="#carouselIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
         </a>
-        <a href="#">
-          <i class="fa fa-shopping-cart" aria-hidden="true"></i>
-        </a>
-        <ul>
-          <li>MICE + KEYBOARDS</li>
-          <li>MOBILE</li>
-          <li>SMART HOME</li>
-          <li>GAMING</li>
-          <li>SPEAKERS</li>
-          <li>VIDEO</li>
-          <li>SUPPORT</li>
-        </ul>
-      </div>
-
-      <ol class="carousel-indicators">
-        <li data-target="#carouselIndicators" data-slide-to="0" class="active"></li>
-        <li data-target="#carouselIndicators" data-slide-to="1"></li>
-        <li data-target="#carouselIndicators" data-slide-to="2"></li>
-      </ol>
-      <div class="carousel-inner" role="listbox">
-        <div
-        style="background-image: url('images/car1.jpg')"
-        class="carousel-item active">
-          <div class="carousel-caption d-none d-md-bloc">
-            <h3>...</h3>
-            <p>...</p>
-          </div>        </div>
-        <div
-        style="background-image: url('images/car2.jpg')"
-        class="carousel-item">
-          <div class="carousel-caption d-none d-md-block">
-            <h3>...</h3>
-            <p>...</p>
-          </div>        </div>
-        <div
-        style="background-image: url('images/car3.jpg')"
-        class="carousel-item">
-          <div class="carousel-caption d-none d-md-block">
-            <h3>...</h3>
-            <p>...</p>
-          </div>        </div>
-      </div>
-      <a class="carousel-control-prev" href="#carouselIndicators" role="button" data-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="sr-only">Previous</span>
-      </a>
-      <a class="carousel-control-next" href="#carouselIndicators" role="button" data-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="sr-only">Next</span>
-      </a>
+      </div>    
     </div>
+
 
     <div class="main-page">
       <h5 id="special-offer">See our special offers here <a href="#">Click here</a></h5>
