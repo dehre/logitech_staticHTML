@@ -1,11 +1,15 @@
 .test {
-  display: none;
+  /*display: none;*/
   position: absolute;
   width: 100%;
 }
 .carousel {
   position: relative;
   top: 40px;
+}
+.bottom-carousel {
+  height: 200px;
+  background-color: rgba(0,0,0,0.1);
 }
 .fixed-top-menu {
   position: absolute;
