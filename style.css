@@ -3,7 +3,7 @@
   --below-carousel: 1000px;
 }
 
-.test {
+.scrolling-carousel {
   /*display: none;*/
   position: absolute;
   z-index: 2;
