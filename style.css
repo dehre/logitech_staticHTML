@@ -62,21 +62,40 @@ a:active {
   display: block;
   margin: 0 auto -47px;
 }
+.top-icons {
+  padding-right: .5em;
+}
 .top-icons i {
   float: right;
   padding: 8px 8px;
+}
+/*class added using jquery*/
+.collapsing-menu {
+  background-color: #252a2c;
+  height: 100vh;
 }
 .navbar button {
   padding: 2px;
   border: 0;
 }
+.navbar-collapse {
+  margin-top: 5em;
+}
 a.main-links {
+  font-size: 1em;
   color: #dcfd00;
+  display: block;
+  padding-bottom: 1em;
+  padding-left: 1em;
 }
 
 
 @media (min-width: 768px) {
-
+  a.main-links {
+    font-size: 1.5em;
+    padding-bottom: 1.5em;
+    padding-left: 1.5em;
+  }
 }
 
 @media (min-width: 992px) {
@@ -85,5 +104,6 @@ a.main-links {
   }
   a.main-links {
     color: white;
+    display: inline;
   }
 }
