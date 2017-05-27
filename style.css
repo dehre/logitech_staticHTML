@@ -46,8 +46,35 @@
   margin-bottom: auto;
 }
 
-// PERSONALIZE WEBSITE
+/*// PERSONALIZE WEBSITE*/
+a:link,
+a:visited,
+a:hover,
+a:active {
+  color: white;
+}
 
+.fixed-top-menu {
+  padding-top: 1em;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  /*align-items: center;*/
+  width: 100%;
+}
+#top-logo {
+}
+.top-icons i {
+  display: inline-block;
+  padding: 8px 8px;
+}
+.fixed-top-menu nav {
+  order: -1;
+}
+.navbar button {
+  padding: 3px;
+  border: 0;
+}
 
 
 @media (min-width: 768px) {
