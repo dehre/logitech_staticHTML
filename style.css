@@ -66,12 +66,12 @@ a:active {
   float: right;
   padding: 8px 8px;
 }
-.fixed-top-menu nav {
-
-}
 .navbar button {
   padding: 2px;
   border: 0;
+}
+a.main-links {
+  color: #dcfd00;
 }
 
 
@@ -82,5 +82,8 @@ a:active {
 @media (min-width: 992px) {
   .fixed-top-menu nav {
     display: block;
+  }
+  a.main-links {
+    color: white;
   }
 }
