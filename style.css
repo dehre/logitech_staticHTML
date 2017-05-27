@@ -1,6 +1,6 @@
 :root {
   --above-carousel: 2.5em;
-  --below-carousel: 2000px;
+  --below-carousel: 1150px;
 }
 
 .carousel {
@@ -44,6 +44,7 @@
 }
 #special-offer {
   margin: .6em auto auto;
+  font-weight: bold;
 }
 #special-offer a {
   text-decoration: underline;
@@ -141,7 +142,6 @@ a.main-links {
 .main-page-container {
   font-size: .9em;
   font-family: 'Poppins', sans-serif;
-  font-weight: bold;
 }
 .bottom-nav-links {
   width: 95%;
@@ -158,6 +158,24 @@ a.main-links {
   font-size: 1.1em;
   padding: .3em .75em;
   border-right: 1px solid rgba(255,255,255,0.3);
+}
+.social-icons {
+  margin-left: 2.5%;
+}
+.social-icons i {
+  padding: .5em;
+}
+.newsletter {
+  width: 95%;
+  max-width: 500px;
+  margin-left: 2.5%;
+}
+.newsletter p {
+  margin-top: 1em;
+  margin-bottom: .25em;
+}
+.footer {
+  margin: 2em .85em 1em;
 }
 
 
