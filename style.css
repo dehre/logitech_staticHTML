@@ -54,6 +54,8 @@ a:active {
   color: white;
 }
 
+  /*TOP MENU
+===========================================*/
 .fixed-top-menu {
   padding-top: 1em;
   width: 100%;
@@ -89,6 +91,13 @@ a.main-links {
   padding-left: 1em;
 }
 
+  /*INNER CAROUSEL
+===============================*/
+.btn {
+  color: #dcfd00;
+  background-color: #252a2c;
+  font-family: cursive;
+}
 
 @media (min-width: 768px) {
   a.main-links {
