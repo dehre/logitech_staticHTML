@@ -98,6 +98,9 @@ a.main-links {
   background-color: #252a2c;
   font-family: cursive;
 }
+.carousel-control-prev-icon {
+  font-size: 3em;
+}
 .carousel-caption {
   font-size: 14px;
   position: absolute;
