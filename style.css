@@ -98,12 +98,55 @@ a.main-links {
   background-color: #252a2c;
   font-family: cursive;
 }
+.carousel-caption {
+  font-size: 14px;
+  position: absolute;
+  width: 50%;
+}
+.carousel-caption p {
+  font-size: 1em;
+  line-height: .95;
+  margin-bottom: .5em;
+}
+.carousel-caption h4 {
+  font-size: 1.5em;
+}
+.carousel-caption button {
+  font-size: 1em;
+}
+.carousel-item:nth-child(1) .carousel-caption {
+  top: 75px;
+  left: 35%;
+}
+.carousel-item:nth-child(2) .carousel-caption {
+  top: 200px;
+  left: 10%;
+}
+.carousel-item:nth-child(3) .carousel-caption {
+  top: 90px;
+  left: 15%;
+}
 
 @media (min-width: 768px) {
   a.main-links {
     font-size: 1.5em;
     padding-bottom: 1.5em;
     padding-left: 1.5em;
+  }
+  .carousel-caption {
+    font-size: 28px;
+  }
+  .carousel-item:nth-child(1) .carousel-caption {
+    top: 140px;
+    left: 38%;
+  }
+  .carousel-item:nth-child(2) .carousel-caption {
+    top: 400px;
+    left: 10%;
+  }
+  .carousel-item:nth-child(3) .carousel-caption {
+    top: 190px;
+    left: 15%;
   }
 }
 
@@ -114,5 +157,8 @@ a.main-links {
   a.main-links {
     color: white;
     display: inline;
+  }
+  .carousel-caption {
+    font-size: 48px;
   }
 }
