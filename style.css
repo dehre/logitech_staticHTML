@@ -1,6 +1,7 @@
 :root {
+  /*Default values.. They get set inside the JS script*/
   --above-carousel: 2.5em;
-  --below-carousel: 1400px;
+  --below-carousel: 2000px;
 }
 
 .carousel {

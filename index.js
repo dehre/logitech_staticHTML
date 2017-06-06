@@ -12,6 +12,10 @@ $(".navbar-toggleable-md").on("hidden.bs.collapse", function () {
   $(".fa-user-o,.fa-search").addClass("hidden-md-down");
 })
 
+
+//Setting Scrolling height of the carousel
 let totalHeight = $(window).height();
-let hiddenBelowCarousel = $(".main-page-hidden-content").height();
-let hiddenAboveCarousel = 40;
+let belowCarousel = $(".main-page-hidden-content").height();
+let stringBelowCarousel = `${belowCarousel + totalHeight + 50}px`;
+
+document.body.style.setProperty("--below-carousel",stringBelowCarousel);
