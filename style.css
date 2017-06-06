@@ -144,6 +144,10 @@ a.main-links {
   font-size: .9em;
   font-family: 'Poppins', sans-serif;
 }
+.main-page-hidden-content {
+  width: 100%;
+  margin: 0 auto;
+}
 .bottom-nav-links {
   width: 95%;
   margin: 0 auto;
@@ -181,6 +185,10 @@ a.main-links {
 
 
 @media (min-width: 768px) {
+  .main-page-hidden-content {
+    width: 90%;
+    margin-bottom: 1em;
+  }
   a.main-links {
     font-size: 1.5em;
     padding-bottom: 1.5em;
