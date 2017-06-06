@@ -215,11 +215,33 @@ a.main-links {
   .fixed-top-menu nav {
     display: block;
   }
+  .fixed-top-menu nav ul {
+    margin: 0 auto;
+  }
+  .fixed-top-menu nav a {
+    padding: .5em;
+    font-family: 'Poppins', sans-serif;
+  }
   a.main-links {
     color: white;
     display: inline;
   }
   .carousel-caption {
-    font-size: 48px;
+    font-size: 42px;
+  }
+  .carousel-item:nth-child(1) .carousel-caption {
+    top: 25%;
+    left: 8%;
+  }
+  .carousel-item:nth-child(2) .carousel-caption {
+    top: 40%;
+    left: 9%;
+  }
+  .carousel-item:nth-child(3) .carousel-caption {
+    top: 30%;
+    left: 10%;
+  }
+  ul.bottom-nav-links {
+    align-content: space-between;
   }
 }
