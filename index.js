@@ -14,8 +14,14 @@ $(".navbar-toggleable-md").on("hidden.bs.collapse", function () {
 
 
 //Setting Scrolling height of the carousel
-let totalHeight = $(window).height();
-let belowCarousel = $(".main-page-hidden-content").height();
-let stringBelowCarousel = `${belowCarousel + totalHeight + 50}px`;
+function changeScrollingHeight(){
+  console.log("function called");
+  let totalHeight = $(window).height();
+  let belowCarousel = $(".main-page-hidden-content").height();
+  let stringBelowCarousel = `${belowCarousel + totalHeight + 50}px`;
 
-document.body.style.setProperty("--below-carousel",stringBelowCarousel);
+  document.body.style.setProperty("--below-carousel",stringBelowCarousel);
+};
+
+//Call the changeScrollingHeight function whenever the device's viewPort changes
+$(window).resize(changeScrollingHeight);
