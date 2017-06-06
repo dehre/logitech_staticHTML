@@ -11,3 +11,7 @@ $(".navbar-toggleable-md").on("hidden.bs.collapse", function () {
   $(".fixed-top-menu").removeClass("collapsing-menu");
   $(".fa-user-o,.fa-search").addClass("hidden-md-down");
 })
+
+let totalHeight = $(window).height();
+let hiddenBelowCarousel = $(".main-page-hidden-content").height();
+let hiddenAboveCarousel = 40;
